@@ -29,15 +29,16 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             children: [
               Padding(
-                padding: const EdgeInsets.only(left: 5),
+                padding: const EdgeInsets.only(right: 15),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     Icon(Icons.phone, color: Colors.grey),
-                    Text("8619653351", style: TextStyle(color: Colors.grey)),
+                    Text("86196****", style: TextStyle(color: Colors.grey)),
                   ],
                 ),
               ),
+
               Row(
                 children: [
                   Padding(
@@ -71,22 +72,22 @@ class HomeScreen extends StatelessWidget {
                       ),
                       Row(
                         children: [
-                          Icon(Icons.home, size: 20, color: Colors.grey),
+                          Icon(
+                            Icons.developer_board_outlined,
+                            size: 20,
+                            color: Colors.grey,
+                          ),
                           Text(
-                            "Ceo-Tushar Gupta",
+                            "Flutter Developer",
                             style: TextStyle(color: Colors.grey),
                           ),
                         ],
                       ),
                       Row(
                         children: [
-                          Icon(
-                            Icons.location_city,
-                            size: 20,
-                            color: Colors.grey,
-                          ),
+                          Icon(Icons.description, size: 20, color: Colors.grey),
                           Text(
-                            "Gurugram",
+                            "A young Hustler wants to learn Flutter",
                             style: TextStyle(color: Colors.grey),
                           ),
                         ],
